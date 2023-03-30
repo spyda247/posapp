@@ -1,0 +1,58 @@
+.header {
+  padding: 16px 20px;
+  height: 32px;
+  background-color: var(--dark-primary);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.logo-wrapper {
+  width: 100px;
+  display: flex;
+}
+.logo-wrapper .logo {
+  width: 30px;
+  height: 30px;
+  color: rgba(204, 204, 204, 0.475);
+  display: inline-block;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  border-radius: 50%;
+  border: 1px solid rgba(204, 204, 204, 0.27);
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: underline;
+  line-height: 28px;
+}
+.logo-wrapper .logo-text {
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #ccc;
+  text-transform: lowercase;
+  align-items: center;
+  justify-content: center;
+  padding-left: 4px;
+  line-height: 28px;
+}
+.table-info {
+  width: 120px;
+  color: rgba(204, 204, 204, 0.475);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.table-info .table-info-details h3 {
+  font-size: 12px;
+  border-radius: 50%;
+  color: rgba(204, 204, 204, 0.8);
+}
+.table-info .table-info-utility {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid rgba(204, 204, 204, 0.27);
+  font-size: 16px;
+  line-height: 31px;
+  text-align: center;
+  transform: rotate(45deg);
+}

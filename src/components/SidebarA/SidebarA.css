@@ -1,0 +1,62 @@
+.navigation {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.navigation .menu-list {
+  padding: 0;
+}
+
+.navigation .menu-list li {
+  padding: 10px;
+  font-size: calc(4px + 1.2vw);
+  font-weight: 700;
+  list-style: none;
+  color: var(--text-color);
+  border-radius: 8px;
+}
+
+.navigation .menu-list li:hover {
+  background-color: var(--dark-primary);
+  color: var(--light);
+}
+
+.navigation .user-list {
+  width: max-content;
+  padding: 0;
+}
+
+.navigation .user-list li {
+  padding: calc(2px + 0.5vw) 8px calc(2px + 0.5vw) 2px;
+  margin: 10px 0;
+  font-size: calc(4px + 1.2vw);
+  font-weight: 300;
+  list-style: none;
+  color: var(--text-color);
+  border-radius: 50px;
+  border: 1px solid var(--border-color);
+}
+
+.navigation .user-list li span {
+  width: 30px;
+  height: 30px;
+  font-size: calc(4px + 1.2vw);
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 24px;
+  padding: 2px calc(2px + 0.5vw);
+  margin: 0 2px;
+  border: 1px solid var(--border-color);
+  border-radius: 50%;
+}
+
+.navigation .user-list li:nth-child(1) span {
+  background-color: rgb(30, 49, 67);
+}
+.navigation .user-list li:nth-child(2) span {
+  background-color: rgb(40, 67, 30);
+}
+.navigation .user-list li:nth-child(3) span {
+  background-color: rgb(66, 67, 30);
+}

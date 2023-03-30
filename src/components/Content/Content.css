@@ -1,0 +1,37 @@
+.content {
+  padding: 15px 20px;
+  min-height: 74vmin;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.content .navigation {
+  width: 22vw;
+  flex: 0 0 auto;
+  padding-top: 10px;
+  min-height: inherit;
+  /* background-color: rgba(255, 255, 255, 0.1); */
+  padding-right: 5px;
+  display: flex;
+}
+
+.content .display {
+  width: 47vw;
+  flex: 1 1 auto;
+  padding-top: 10px;
+  min-height: inherit;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 10px 5px;
+}
+
+.content .items {
+  width: 25vw; 
+  flex: 1 0 auto;
+  padding-top: 10px;
+  min-height: inherit;
+  background-color: rgba(255, 255, 255, 0.2);;
+  padding-left: 5px;
+  /* border-radius: 8px 8px 0 0 */;
+  
+}

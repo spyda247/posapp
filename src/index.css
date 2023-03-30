@@ -1,0 +1,24 @@
+* {
+  --dark: #121212;
+  --light: #f2f2f2;
+  --text-color:  rgba(204, 204, 204, 0.475);
+  --border-color: rgba(204, 204, 204, 0.27);
+  --dark-primary: rgba(55, 54, 54, 0.3);
+}
+
+html {
+  box-sizing: border-box;
+  background-color: var(--dark);
+  color: var(--light);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body, h1, h2, h3, h4, h5, h6, div, ol, ul, li, a, button, p {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 12px;
+}
+
