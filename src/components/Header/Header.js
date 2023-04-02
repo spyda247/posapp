@@ -8,7 +8,7 @@ const Header = () => {
         <span aria-label="logo" role="img" className="logo">
           PA
         </span>
-        <span className="logo-text">posapp</span>
+        <span className="logo-text">PosApp</span>
       </div>
       <div class="table-info">
         <div class="table-info-details">

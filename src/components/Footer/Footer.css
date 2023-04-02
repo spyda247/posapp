@@ -1,34 +1,8 @@
 .footer {
-  height: 32px;
+  margin: -14px 0;
   padding: 0 20px;
   display: flex;
   flex-direction: row;
   gap: 10px;
 }
 
-.footer .copyright {
-    width: 22vw;
-    flex: 1 0 auto;
-    height: inherit;
-    padding: 10px 0;
-    background-color: rgba(255, 255, 255, 0.1);
-    padding-right: 5px;
-    
-}
-.footer .table-details {
-    width: 50vw;
-    flex: 1 1 auto;
-    height: inherit;
-    padding: 10px 0;
-    background-color: rgba(255, 255, 255, 0.1);
-    padding: 10px 5px;
-}
-.footer .payment-method { 
-    width: 25vw;  
-    flex: 1 0 auto;
-    height: inherit;
-    padding: 10px 0;
-    background-color: rgba(255, 255, 255, 0.2);
-    padding-left: 5px;
-
-}

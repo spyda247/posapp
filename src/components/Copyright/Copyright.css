@@ -1,0 +1,11 @@
+.copyright {
+    width: 20vw;
+    flex: 1 0 auto;
+    height: inherit;
+    padding: 10px 0;
+    padding-right: 5px;
+    color: var(--text-color);
+    font-size: 14px;
+    letter-spacing: 2.4px;
+    align-self: end;
+}

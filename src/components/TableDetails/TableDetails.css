@@ -1,0 +1,45 @@
+.table-details {
+    width: 200px;
+    flex: 1 0 auto;
+    /* border-right: 1px solid var(--border-color);
+    border-left: 1px solid var(--border-color); */
+    background-color: var(--dark-primary);
+    border-radius: 8px;
+    padding: 8px 10px;
+    margin: 10px 10px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 14px;
+}
+
+.table-details .table-number {
+    width: 28px;
+    height: 28px;
+    padding: 8px;
+    margin-right: 4px;
+    border-radius: 4px;
+    background-color: rgb(66, 67, 30);
+}
+
+.table-details div {
+    color: var(--text-color);
+}
+
+.table-details h3 {
+    margin-top: 4px;
+    font-size: 14px;
+    color: rgba(231, 228, 228, 0.75);
+    padding-bottom: 2px;
+    font-weight: bold;
+}
+
+.table-details .order-status {
+    width: 6px;
+    height: 6px;
+    padding: 8px;
+    margin: 8px;
+    border-radius: 50%;
+    align-self: self-start;
+    background-color: rgba(218, 205, 23, 0.7);
+}

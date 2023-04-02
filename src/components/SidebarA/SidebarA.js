@@ -4,7 +4,7 @@ import './SidebarA.css'
 const SidebarA = () => {
   return (
     <div className="navigation">
-      <div className="menu-list">
+      <div className="nav-list">
         <ul>
           <li>Reservation</li>
           <li>Table services</li>

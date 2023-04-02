@@ -1,0 +1,53 @@
+.payment-method { 
+    width: 25vw;  
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+    
+}
+
+.payment-method p {
+    font-size: 18px;
+    color: var(--text-color);
+    letter-spacing: 4px;
+    line-height: 2px;
+    margin-bottom: 8px;
+    padding-top: 10px;
+}
+
+.payment-method ul {
+    list-style: none;
+}
+
+.payment-method ul li {
+    width: inherit;
+    display: inline-block;
+    padding: 20px 38px;
+    margin: 8px 16px 8px 0;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.payment-method ul li span {
+    font-size: 17px;
+}
+
+.payment-method ul li p {
+    font-size: 14px;
+}
+
+.payment-method button {
+    width: 80%;
+    padding: 14px 16px;
+    margin-top: 14px;
+    border-radius: 50px;
+    font-size: 17px;
+    font-weight: 600;
+    flex: 1 1 auto;
+    align-self: center;
+}
+

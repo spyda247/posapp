@@ -1,0 +1,16 @@
+.details {
+  padding: 15px 0 15px 20px;
+  /* min-height: 74vmin; */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.details .table {
+  width: 55vw;
+}
+
+.details .payment-method {
+  width: 25vw; 
+   
+}

@@ -4,11 +4,11 @@
   justify-content: space-between;
 }
 
-.navigation .menu-list {
+.navigation .nav-list {
   padding: 0;
 }
 
-.navigation .menu-list li {
+.navigation .nav-list li {
   padding: 10px;
   font-size: calc(4px + 1.2vw);
   font-weight: 700;
@@ -17,7 +17,11 @@
   border-radius: 8px;
 }
 
-.navigation .menu-list li:hover {
+.navigation .nav-list li:nth-child(3) {
+  background-color: var(--dark-primary);
+}
+
+.navigation .nav-list li:hover {
   background-color: var(--dark-primary);
   color: var(--light);
 }
