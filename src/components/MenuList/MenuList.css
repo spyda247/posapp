@@ -1,0 +1,15 @@
+.menu-list {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.menu-list .box {
+    width: 17vmin;
+    height: 13.75vmin;
+    border-radius: 4px;
+    flex: 1 0 17vmin;
+    background-color: aquamarine
+}

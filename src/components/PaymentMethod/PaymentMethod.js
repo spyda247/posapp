@@ -13,12 +13,12 @@ const PaymentMethod = () => {
           <p>Cash</p>
         </li>
         <li>
-          <i class="fa fa-credit-card" aria-hidden="true"></i>
+          <i className="fa fa-credit-card" aria-hidden="true"></i>
           <p>Card</p>
         </li>
 
         <li>
-          <i class="fa fa-shield" aria-hidden="true"></i>
+          <i className="fa fa-shield" aria-hidden="true"></i>
           <p>Wallet</p>
         </li>
       </ul>

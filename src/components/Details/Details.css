@@ -1,5 +1,5 @@
 .details {
-  padding: 15px 0 15px 20px;
+  padding: 0px 0 15px 20px;
   /* min-height: 74vmin; */
   display: flex;
   flex-wrap: wrap;
@@ -7,7 +7,7 @@
 }
 
 .details .table {
-  width: 55vw;
+  width: 67vw;
 }
 
 .details .payment-method {

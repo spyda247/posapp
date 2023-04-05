@@ -1,0 +1,15 @@
+.menulist-details {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.menulist-details .box {
+    width: 17vmin;
+    height: 13.75vmin;
+    background-color: var(--dark-primary);
+    border-radius: 4px;
+    flex: 1 0 17vmin;
+}

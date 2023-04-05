@@ -1,5 +1,5 @@
 .content {
-  padding: 15px 20px;
+  padding: 15px 20px 0 20px;
   min-height: 54vmin;
   display: flex;
   flex-wrap: wrap;
@@ -20,9 +20,9 @@
   flex: 1 1 auto;border-radius: 8px 8px 0 0;
   padding-top: 10px;
   min-height: inherit;
-  border: 1px solid var(--border-color);
+  /* border: 1px solid var(--border-color); */
   border-radius: var(--border-radius);
-  padding: 10px 5px;
+  padding: 0 5px;
 }
 
 .content .items {
@@ -31,6 +31,6 @@
   padding-top: 10px;
   min-height: inherit;
   padding-left: 5px;
-  border: 1px solid var(--border-color);;
+  /* border: 1px solid var(--border-color);; */
   border-radius: var(--border-radius); 
 }

@@ -1,0 +1,30 @@
+.calculate-wrapper {
+    width: 96%;
+    padding: 4px;
+    background-color: rgb(18 18 18 / 40%);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+}
+
+.calculate-item {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+.calculate-item p {
+    font-size: 15px;
+}
+.calculate-item:nth-child(3) p {
+    font-size: 18px;
+}
+
+.calculate-item:nth-child(2) {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid var(--border-color);
+}
+.calculate-item .amount {
+    font-weight: 800;
+}

@@ -8,7 +8,7 @@ const OrderDetails = () => {
         <p>
           <span className="order-total">8 Orders</span>
           <span className="order-icon">
-            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+            <i className="fa fa-arrow-right" aria-hidden="true"></i>
           </span>
           <span className="order-department">Bar</span>
         </p>
@@ -17,7 +17,7 @@ const OrderDetails = () => {
         <p>
           <span className="order-total">4 Orders</span>
           <span className="order-icon">
-            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+            <i className="fa fa-arrow-right" aria-hidden="true"></i>
           </span>
           <span className="order-department">Kitchen</span>
         </p>

@@ -1,32 +1,13 @@
 import React from 'react'
+import Calculate from '../Calculate/Calculate'
+import Item from '../Item/Item'
+import './Items.css'
 
 const Items = () => {
   return (
     <div className="items">
-      <div>
-        <div className="item-details">
-          <div className="item-number">1</div>
-          <div>
-            <span className="item-description">Cowtail Soup</span>x
-            <span className="item-quantity">2</span>
-          </div>
-        </div>
-        <div className="item-price">
-          <span>&#8358;3000.00</span>
-        </div>
-      </div>
-      <div>
-        <div className="item-details">
-          <div className="item-number">2</div>
-          <div>
-            <span className="item-description">Heinekien</span>x
-            <span className="item-quantity">4</span>
-          </div>
-        </div>
-        <div className="item-price">
-          <span>&#8358;2000.00</span>
-        </div>
-      </div>
+      <Item />
+      <Calculate />
     </div>
   )
 }
