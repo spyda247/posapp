@@ -35,6 +35,7 @@
 }
 
 .table-details .order-status {
+    display: inline-block;
     width: 6px;
     height: 6px;
     padding: 8px;

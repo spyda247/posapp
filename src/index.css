@@ -5,6 +5,16 @@
   --border-color: rgba(204, 204, 204, 0.27);
   --dark-primary: rgba(55, 54, 54, 0.3);
   --border-radius: 8px 8px 0 0;
+  --food-highlight-color: pink;
+  --soups-highlight-color: aquamarine;
+  --fries-highlight-color: orange;
+  --barbeque-highlight-color: rgb(224, 135, 135);
+  --drinks-highlight-color: lightblue;
+  --spirits-highlight-color: gold;
+  --beer-highlight-color: lightgreen;
+  --deserts-highlight-color: rgb(226, 144, 86);
+
+  
 }
 
 html {

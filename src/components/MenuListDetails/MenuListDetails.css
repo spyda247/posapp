@@ -5,11 +5,50 @@
     flex-wrap: wrap;
     gap: 10px;
 }
-
-.menulist-details .box {
+.menulist-details .menu-item {
     width: 17vmin;
-    height: 13.75vmin;
+    height: 13vmin;
     background-color: var(--dark-primary);
     border-radius: 4px;
-    flex: 1 0 17vmin;
+    flex: 1 1 17vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 8px 0 0 8px;
+}
+.menulist-details .menu-item p {
+    color: var(--text-color);
+    font-size: 0.85vw;
+}
+.menulist-details .menu-item p i {
+    padding: 0 4px;
+}
+
+.menulist-details .menu-item .item-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    font-size: 1vw;
+}
+
+.menulist-details .menu-item .item-details .item-details-price {
+    font-size: 1.1vw;
+}
+
+.menulist-details .menu-item .item-details-qty {
+    align-self: flex-end;
+    padding: 0 8px 8px 0;
+    font-size: 1.25vw;
+}
+
+.menulist-details .menu-item .item-details-qty i {
+    font-size: 1.35vw;
+}
+.menulist-details .menu-item .item-details-qty span {
+    margin: 0 16px;
+}
+
+.soup-highlight {
+    border-right: 2px solid var(--soups-highlight-color);
 }

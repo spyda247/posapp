@@ -5,12 +5,52 @@
     flex-wrap: wrap;
     gap: 10px;
     border-bottom: 1px solid var(--border-color);
+    color: var(--dark);
 }
-
-.menu-list .box {
+.menu-list .menu {
     width: 17vmin;
     height: 13.75vmin;
     border-radius: 4px;
     flex: 1 0 17vmin;
-    background-color: aquamarine
+    padding: 0 8px 4px 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.menu-list .menu span {
+    margin-top: 0;
+    font-size: 2.0vw;
+}
+.menu .item-title {
+    font-size: 1.75vw;
+}
+.menu .item-details {
+    color: #555555;
+}
+.active {
+    border-top: 8px solid red;
+}
+.food {
+    background-color: var(--food-highlight-color);
+}
+.soups {
+    background-color: var(--soups-highlight-color);
+}
+.fries {
+    background-color: var(--fries-highlight-color);
+}
+.barbeque {
+    background-color: var(--barbeque-highlight-color);
+}
+.drinks {
+    background-color: var(--drinks-highlight-color);
+}
+.spirits {
+    background-color: var(--spirits-highlight-color);
+}
+.beer {
+    background-color: var(--beer-highlight-color);
+}
+.deserts {
+    background-color: var(--deserts-highlight-color);
 }
